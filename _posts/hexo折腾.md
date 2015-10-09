@@ -52,6 +52,14 @@ tags:
     rm -rf public
     hexo clean
     
+# 其他电脑上使用
+主题的话可以fork一个然后自定义修改
+	git remote add mine xxx
+	git push -u mine master
+    git clone git@github.com:dihihi/jacman.git themes/jacman
+备份_config.xml
+source目录可以创建一个仓库保存在github上
+    
 # 引用链接
 [如何使用 Jacman 主题](http://wuchong.me/jacman/2014/11/20/how-to-use-jacman/#more "打开")
 [Markdown 语法说明 (简体中文版)](http://wowubuntu.com/markdown/ "打开")
