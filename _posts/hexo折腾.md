@@ -18,10 +18,25 @@ tags:
 创建github工厂"username.github.io"
 
 编辑_config.yml
+    # Site
+    title: MarkDown使用
+    subtitle: 学习
+    description: 学习 笔记 管理
+    author: Dihihi
+    language: zh_CN
+    timezone: Asia/Shanghai
+
+    # Extensions
+    theme: jacman
+    stylus: 
+        compress: true
+
+    # Deployment
     deploy:
     type: git
-    repository: git@xxx
+    repository: git@github.com:dihihi/dihihi.github.io.git
     branch: master
+
 
 没有部署器的话，安装
 	npm install hexo-deployer-git --save
